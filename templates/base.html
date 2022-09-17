@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Online {% block title %} {% endblock title %} - Learn Anything,On Your Sedhule|Udemy</title>
+  <link rel="icon" href="/static/udemy.ico" type="image/x-icon">
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg bg-light" style="border-color:black;">
+    <div class="container-fluid px-4">
+      <a class="navbar-brand" href="/"><img src="https://www.udemy.com/staticx/udemy/images/v7/logo-udemy.svg"
+          width="90" height="50" /a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <a class="navbar-brand" href="#"></a>
+          <ul class="navbar-nav " style="display:flex;justify-content:center;align-items:center;">
+            <li class="nav-item">
+              <a class="nav-link" href="/development">Development</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/business">Business</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="/marketing">Marketing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ai">Artifical Intelligence</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="/ml">Machine Learning</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control " type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+          <div style="display:flex;justify-content:center;margin-left:20%;">
+            <a class="nav-link" href="/business"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                fill="currentColor" class="bi bi-cart3 ml-4" viewBox="0 0 16 16">
+                <path
+                  d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l.84 4.479 9.144-.459L13.89 4H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z" />
+              </svg></a>
+
+            <a class="nav-link" style="margin-left:40%;" href="/business"><svg xmlns="http://www.w3.org/2000/svg"
+                width="30" height="30" fill="currentColor" class="bi bi-heart" viewBox="0 0 16 16">
+                <path
+                  d="m8 2.748-.717-.737C5.6.281 2.514.878 1.4 3.053c-.523 1.023-.641 2.5.314 4.385.92 1.815 2.834 3.989 6.286 6.357 3.452-2.368 5.365-4.542 6.286-6.357.955-1.886.838-3.362.314-4.385C13.486.878 10.4.28 8.717 2.01L8 2.748zM8 15C-7.333 4.868 3.279-3.04 7.824 1.143c.06.055.119.112.176.171a3.12 3.12 0 0 1 .176-.17C12.72-3.042 23.333 4.867 8 15z" />
+              </svg></a>
+
+          </div>
+
+        </div>
+    </div>
+
+  </nav>
+  
+  <div class="alert alert-warning alert-dismissible fade show" role="alert">
+    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+  </div>
+
+  {% block body %}{% endblock body %}
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+    crossorigin="anonymous"></script>
+</body>
+<footer>
+  <h1 style="margin-left:2%;">Popular Instructors</h1>
+  <div class="container">
+    <div class="row gy-3 my-3">
+      <div class="col-sm-6 col-md-4 col-lg-3">
+        <div class="card mb-3">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img alt="" class="udlite-avatar udlite-avatar-image mt-3" width="64" height="64"
+                src="https://img-b.udemycdn.com/user/75x75/31334738_a13c_2.jpg" style="width: 6.4rem; height: 6.4rem;">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">Dr. Angela Yu</h5>
+                <p class="card-text">Python, DataScience</p>
+                <p class="card-text"><small class="text-muted"><b>1,615,288</b> Students</small></p>
+                <p class="card-text"><small class="text-muted"><b>9</b> Cources</small></p>
+              </div>
+            </div>
+          </div>
+        </div>
+</footer>
+<footer style="background-color:#1c1d1f;">
+  
+      <div class="py-4" style="margin-left:30px;">
+        <div class="udlite-heading-lg" style="color:white; font-size: 23px;"><b>Teach the world online</b></div>
+        <div class="udlite-text-md bai-banner--subtitle--2W2gx" style="color:white; font-size: 20px ;">Create an online video course, reach students across the globe, and earn money</div>
+      </div>
+      <hr class="my-0" style="color: whitesmoke;">
+      <div class="py-4" style="margin-left:30px;">
+        <div class="udlite-heading-lg" style="color:white; font-size: 23px;"><b>Top companies choose Udemy Business to build in-demand career skills.</b></div>
+        <div>
+          <div class="ufb-notice--partner-logos--YyqeL"><img alt="Nasdaq" height="44" width="115" src="https://s.udemycdn.com/partner-logos/v4/nasdaq-light.svg"><img alt="Volkswagen" height="44" width="44" src="https://s.udemycdn.com/partner-logos/v4/volkswagen-light.svg"><img alt="Box" height="44" width="67" src="https://s.udemycdn.com/partner-logos/v4/box-light.svg"><img alt="NetApp" height="44" width="115" src="https://s.udemycdn.com/partner-logos/v4/netapp-light.svg"><img alt="Eventbrite" height="44" width="115" src="https://s.udemycdn.com/partner-logos/v4/eventbrite-light.svg"></div>
+        </div>
+      </div>
+      <hr class="my-0" style="color: whitesmoke;">
+     
+  
+  <div>
+    <span style="color:white;font-size:2vw;margin-left:30px;">Contact us</span>
+    <a href="/contact" style="color:white;margin-left:15px;align-items:center;"><svg xmlns="http://www.w3.org/2000/svg"
+        width="30" height="30" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0z" />
+        <path fill-rule="evenodd"
+          d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z" />
+      </svg></a>
+    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-basket3"
+      viewBox="0 0 16 16">
+      <path
+        d="M5.757 1.071a.5.5 0 0 1 .172.686L3.383 6h9.234L10.07 1.757a.5.5 0 1 1 .858-.514L13.783 6H15.5a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5H.5a.5.5 0 0 1-.5-.5v-1A.5.5 0 0 1 .5 6h1.717L5.07 1.243a.5.5 0 0 1 .686-.172zM3.394 15l-1.48-6h-.97l1.525 6.426a.75.75 0 0 0 .729.574h9.606a.75.75 0 0 0 .73-.574L15.056 9h-.972l-1.479 6h-9.21z" />
+    </svg>
+  </div>
+
+</footer>
+
+</html>
